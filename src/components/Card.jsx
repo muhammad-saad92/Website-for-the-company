@@ -1,6 +1,6 @@
 function Card({ title, description, Icon, buttonText }) {
     return (
-      <div className="card bg-base-100 w-80 md:w-full bg-gray-100 shadow-md">
+      <div className="card bg-base-100 w-full bg-gray-100 shadow-md">
         <div className="pt-10 text-5xl text-primary text-center m-auto">
           <Icon className='w-30' /> 
         </div>
