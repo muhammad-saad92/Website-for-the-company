@@ -8,11 +8,11 @@ import { FaLaptopCode, FaShoppingCart, FaSearch } from "react-icons/fa";
 function Home(){
     return(
         <>
-            <section className="hero min-h-screen max-w-6xl mx-auto">
+            <section className="hero min-h-screen max-w-6xl mx-auto px-4">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img
                     src={banner}
-                    className="max-w-lg rounded-lg shadow-2xl"
+                    className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-lg shadow-2xl"
                     />
                     <div>
                     <h1 className="text-5xl font-bold">Building websites that build your business</h1>
@@ -26,7 +26,7 @@ function Home(){
             <section id='services' className='bg-[#F9FAFB] text-black p-20'>
                 <div className='max-w-6xl mx-auto'>
                     <h2 className='text-5xl font-bold pb-8'>Our Services</h2>
-                    <div className='flex gap-4'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
                         <Card
                         title="Website Development"
                         description="Modern, responsive websites built with React and Tailwind."
@@ -48,7 +48,7 @@ function Home(){
                     </div>
                 </div>
             </section>
-            <section id='portfolio' className='max-w-6xl mx-auto pt-20 pb-20'>
+            <section id='portfolio' className='max-w-6xl mx-auto pt-20 pb-20 px-4 sm:px-6'>
                 <h2 className='text-5xl font-bold pb-8'>Our Previous Works</h2>
                 <Carousel />
             </section>

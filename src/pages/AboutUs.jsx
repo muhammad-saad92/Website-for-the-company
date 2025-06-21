@@ -9,11 +9,11 @@ import member6 from "../assets/member6.jpg";
 function AboutUs() {
     const team = [
       { name: "Saad Shahid", role: "Founder & Developer", image: member1 },
-      { name: "Kay", role: "Digital Marketing Wizard", image: member2 },
-      { name: "Iona", role: "Industry Strategist", image: member3 },
-      { name: "Jay", role: "Project Manager", image: member4 },
-      { name: "Lina", role: "UI/UX Designer", image: member5 },
-      { name: "Zee", role: "Frontend Engineer", image: member6 },
+      { name: "Tayyab", role: "Digital Marketing Wizard", image: member2 },
+      { name: "Najam", role: "Accounts Manager", image: member3 },
+      { name: "Aleem", role: "UI/UX Designer", image: member4 },
+      { name: "Ali Raza", role: "SEO Specialist", image: member5 },
+      { name: "Nouman", role: "Customer Support", image: member6 },
     ];
   
     return (

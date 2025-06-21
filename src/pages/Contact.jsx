@@ -40,7 +40,7 @@ function Contact() {
             <p><strong>Phone:</strong> +92 336 4495685</p>
             <p><strong>Location:</strong> Lahore, Pakistan (Remote)</p>
             <div className="pt-4 space-x-4">
-              <a href="#" className="btn btn-sm btn-outline">Facebook</a>
+              <a href="https://www.instagram.com/webcr_afters?igsh=MTI3bGZuZXpjc3c2dQ==" className="btn btn-sm btn-outline">Instagram</a>
               <a href="#" className="btn btn-sm btn-outline">LinkedIn</a>
             </div>
           </div>

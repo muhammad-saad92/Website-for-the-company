@@ -14,8 +14,8 @@ function TeamCard({ name, role, image, delay = 0 }) {
           <img src={image} alt={name} className="rounded-full h-28 w-28 object-cover" />
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title">{name}</h2>
-          <p className="text-gray-600">{role}</p>
+          <h2 className="card-title text-xl">{name}</h2>
+          <p className="text-gray-400">{role}</p>
         </div>
       </motion.div>
     );

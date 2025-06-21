@@ -4,7 +4,7 @@ function CarousalImage({source}){
             <img
               src={source}
               alt='porfolio image'
-              className="rounded-box w-sm"
+              className="rounded-box w-[250px] sm:w-[300px] md:w-[350px] lg:w-[400px]"
               />
         </div>
     )
